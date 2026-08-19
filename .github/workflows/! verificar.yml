@@ -1,0 +1,19 @@
+name: verificar site
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Verificar site
+        run: |
+          if [ ! -f "index.html" ]; then
+            echo "Arquivo index.html não encontrado!"
+            exit 1
+          fi
+          echo "Arquivo index.html encontrado."

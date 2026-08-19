@@ -1,0 +1,15 @@
+Pipeline-caminho que o codigo percorre ate chegar ate o usuario 
+
+codigo-Git-github-teste-publicaçao-Verificaçao
+
+CI-integraçao continua
+o dcodigo enviado é automaticamente verificado e testado.
+
+Github Actions
+permite executar tarefas automaticamente quando alguma coisa acontece no repositorio .
+Ex:
+Sempre que alguem fizer um git push verifique se o projeto possui um index.html
+
+papeline aprovado
+papeline falhou
+quando falha abrimos o github para descobrirmos por que falhou.
